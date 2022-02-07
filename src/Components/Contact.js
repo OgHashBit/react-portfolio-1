@@ -71,7 +71,7 @@ const Contact = ({ data }) => {
 
            <div id="message-warning"> Error </div>
 				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your request was sent, thank you!<br />
+                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
 				   </div>
            </div>
 
