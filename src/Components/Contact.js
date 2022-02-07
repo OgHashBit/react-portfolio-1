@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Contact = ({ data }) => {
-   const [url, setUrl] = useState('mailto:prinsmediainc@gmail.com?subject=subject&body=body');
+   const [url, setUrl] = useState('mailto:litgemstoneclaim@gmail.com?subject=subject&body=body');
    const [name, setName] = useState('');
    const [subject, setSubject] = useState('');
    const [email, setEmail] = useState('');
@@ -16,13 +16,13 @@ const Contact = ({ data }) => {
     
 
     return (
-      <section id="contact">
+      <section id="subject">
 
          <div className="row section-head">
 
             <div className="two columns header-col">
 
-               <h1><span>Get In Touch.</span></h1>
+               <h1><span>Enter number of NFT you want to claim</span></h1>
 
             </div>
 
@@ -71,7 +71,7 @@ const Contact = ({ data }) => {
 
            <div id="message-warning"> Error </div>
 				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
+                  <i className="fa fa-check"></i>Your request was sent, thank you!<br />
 				   </div>
            </div>
 
