@@ -2,13 +2,27 @@
   "name": "personalportfolio",
   "version": "0.1.0",
   "private": true,
+  "keywords": [
+    "codrops",
+    "shaders",
+    "refraction",
+    "scroll",
+    "gltf"
+  ],
   "dependencies": {
+    "@react-three/drei": "4.1.8",
+    "@react-three/fiber": "6.0.14",
+    "lerp": "1.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "0.127.0"
     "file-saver": "^2.0.2",
     "jquery": "^3.5.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
     "react-ga": "^3.1.2",
-    "react-scripts": "3.4.3"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
   },
   "scripts": {
     "start": "set PORT=3006 && react-scripts start",
