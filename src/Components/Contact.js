@@ -22,7 +22,7 @@ const Contact = ({ data }) => {
 
             <div className="two columns header-col">
 
-               <h1><span>Enter number of NFT you want to claim</span></h1>
+               <h1><span>Request off-chain gemstone!</span></h1>
 
             </div>
 
